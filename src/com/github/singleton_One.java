@@ -12,7 +12,7 @@ public class singleton_One {
 
     }
 
-    static singleton_One one=new singleton_One();
+    private static singleton_One one=new singleton_One();
 
     public static singleton_One getInstance(){return one;}
 }

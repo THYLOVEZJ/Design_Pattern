@@ -8,5 +8,9 @@ public class singleton_One_Test {
         singleton_One one=singleton_One.getInstance();
         singleton_One two=singleton_One.getInstance();
         System.out.println(one==two);
+        System.out.println("===================");
+        singleton_Two three=singleton_Two.getInstance();
+        singleton_Two four=singleton_Two.getInstance();
+        System.out.println(three==four);
     }
 }
